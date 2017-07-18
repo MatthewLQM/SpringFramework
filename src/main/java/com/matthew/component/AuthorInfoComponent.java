@@ -3,9 +3,6 @@ package com.matthew.component;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;
 
-/**
- * Created by huafu on 17-7-18.
- */
 @Component
 @ConfigurationProperties(prefix = "project")
 public class AuthorInfoComponent {
